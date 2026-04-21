@@ -1,0 +1,22 @@
+Final values:
+  V*(fairway) = -3.238095238075
+  V*(rough) = -3.273809523779
+  V*(near_green) = -2.083333333333
+  V*(green) = -1.250000000000
+  V*(hole) = 0.000000000000
+
+Final greedy policy:
+  fairway -> driver
+  rough -> driver
+  near_green -> putter
+  green -> putter
+  hole -> TERMINAL
+
+Final q-values:
+  Q*(fairway,driver) = -3.238095238089
+  Q*(fairway,putter) = -3.692857142845
+  Q*(rough,driver) = -3.273809523800
+  Q*(rough,putter) = -3.833333333312
+  Q*(near_green,driver) = -2.571428571422
+  Q*(near_green,putter) = -2.083333333333
+  Q*(green,putter) = -1.250000000000
